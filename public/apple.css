@@ -1,0 +1,72 @@
+#abc{
+width: 1358px;
+height: 50px;
+background-color: rgb(53, 53, 53);
+
+}
+#bcd{
+    width: 1358px;
+    height: 50px;
+    background-color:rgb(15, 121, 228);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+    }
+    .link{
+        color: lavender;
+        text-decoration: none;
+        align-items: center;
+        margin-left: 70px;
+    }
+    .link:hover{
+        color: white;
+    }
+    #covid{
+        text-decoration: none;
+        align-items: center;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    .pic{
+        width: 100%;
+        height: 600px;
+    }
+    #covid:hover{
+        border-bottom: white 1px solid;
+    }
+    #shop{
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: blue;
+        
+    }
+    #shop:hover{
+        border-bottom: blue 1px solid;
+    }
+    #cda{
+        width: 1358px;
+        height: 50px;
+        background-color: #f5f5f7;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        @media only screen and (max-width: 734px) {
+            #bcd {
+                padding: 10px 0;
+                max-width: 285px;
+                margin: 0 auto;
+            }
+            #abc #bcd [data-module-template]#cda [data-unit-id] {
+                overflow: auto;
+            }
+        }
